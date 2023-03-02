@@ -1,0 +1,11 @@
+header{background-color: black;color: white;text-align: center;padding: 10px;}
+article{text-align: left;margin: auto;}
+
+h1{font-family: Itim;}
+p{text-align: justify;font-weight: bolder;font-size: 2em;line-height: 2em;max-width: 500px;min-width: 300px;padding-left: 10px;margin:0px 0px 10px 10px;}
+#p1{display: block;background-color: rgba(151, 216, 194, 0.323);max-width: 500px;min-width: 300px;}
+div#p1A {
+    background-image:url("https://t2.ea.ltmcdn.com/pt/posts/8/8/9/tipos_de_joaninha_joaninha_de_dois_pontos_adalia_bipunctata_22988_3_orig.jpg");background-repeat: no-repeat;background-size: cover;padding: 10px 0px 10px 0px;
+}
+#p3{background-color: rgba(22, 2, 72, 0.214);max-width: 500px;min-width: 300px;padding-left: 10px;}
+div#p3A{background-image: url("livro.jpeg");background-repeat: no-repeat;background-size: cover;padding: 10px 0px 10px 0px;}
