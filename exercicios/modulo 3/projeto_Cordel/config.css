@@ -1,6 +1,7 @@
+@charset "UTF-8";
 header{background-color: black;color: white;text-align: center;padding: 10px;}
 article{text-align: left;margin: auto;}
-
+body{min-height:100vh;}
 h1{font-family: Itim;}
 p{text-align: justify;font-weight: bolder;font-size: 2em;line-height: 2em;max-width: 500px;min-width: 300px;padding-left: 10px;margin:0px 0px 10px 10px;}
 #p1{display: block;background-color: rgba(0, 0, 0, 0.279);max-width: 500px;min-width: 300px;border-radius: 10px;padding: 10px;color: honeydew;}
