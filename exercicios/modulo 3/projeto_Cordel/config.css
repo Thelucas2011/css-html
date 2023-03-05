@@ -1,14 +1,101 @@
 @charset "UTF-8";
-header{background-color: black;color: white;text-align: center;padding: 10px;}
-article{text-align: left;margin: auto;}
-body{min-height:100vh;}
-h1{font-family: Itim;}
-p{text-align: justify;font-weight: bolder;font-size: 2em;line-height: 2em;max-width: 500px;min-width: 300px;padding-left: 10px;margin:0px 0px 10px 10px;}
-#p1{display: block;background-color: rgba(0, 0, 0, 0.279);max-width: 500px;min-width: 300px;border-radius: 10px;padding: 10px;color: honeydew;}
-div#p1A {
-    background-image:url("https://t2.ea.ltmcdn.com/pt/posts/8/8/9/tipos_de_joaninha_joaninha_de_dois_pontos_adalia_bipunctata_22988_3_orig.jpg");background-repeat: no-repeat;background-size: cover;padding: 10px 0px 10px 0px;
-border-radius: 10px;}
-div#p2A{background-image: linear-gradient(to right,yellow, red);padding-bottom: 10px;border-radius: 10px;}
-#p2{}
-#p3{background-color: rgba(0, 0, 1, 0.289);max-width: 500px;min-width: 300px;padding-left: 10px;border-radius: 10px;padding: 10px;color: honeydew;}
-div#p3A{background-image: url("livro.jpeg");background-repeat: no-repeat;background-size: cover;padding: 10px 0px 10px 0px;border-radius: 10px;}
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte1);
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 10vw;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01 {
+    background-image: url('imagens/img01.jpg');
+    background-position: right center;
+    
+}
+
+section#img02 {
+    background-image: url('imagens/img02.jpg');
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
